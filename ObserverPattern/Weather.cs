@@ -2,6 +2,7 @@
 {
     class Weather
     {
+        //weather包含温度、湿度、气压
         public double Pressure { get; }
 
         public double Humidity { get; }

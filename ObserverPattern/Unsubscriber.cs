@@ -5,6 +5,7 @@ namespace ObserverPattern
 {
     internal class Unsubscriber<TWeather> : IDisposable
     {
+        //工具类，用于取消订阅
         private readonly List<IObserver<TWeather>> _observers;
         private readonly IObserver<TWeather> _observer;
 
